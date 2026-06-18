@@ -12,7 +12,7 @@ variable "region" {
 variable "zone" {
   description = "GCP Zone"
   type        = string
-  default     = "us-central1-a"
+  default     = "us-central1-c"
 }
 
 variable "hf_token" {
@@ -31,7 +31,7 @@ variable "model_id" {
 variable "machine_type" {
   description = "GCE Machine Type for the GPU node"
   type        = string
-  default     = "n1-standard-4"
+  default     = "n2-standard-8"
 }
 
 variable "gpu_type" {
@@ -43,5 +43,5 @@ variable "gpu_type" {
 variable "gpu_count" {
   description = "Number of GPUs to attach"
   type        = number
-  default     = 1
+  default     = 0
 }
