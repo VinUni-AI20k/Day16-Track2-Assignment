@@ -1,0 +1,22 @@
+{
+  "dataset_rows": 284807,
+  "dataset_columns": 30,
+  "load_time_sec": 0.9123201079999035,
+  "training_time_sec": 1.6108758989998933,
+  "best_iteration": 8,
+  "auc_roc": 0.9644327712092152,
+  "accuracy": 0.9869386608616271,
+  "f1_score": 0.19130434782608696,
+  "precision": 0.1070559610705596,
+  "recall": 0.8979591836734694,
+  "inference_time_sec": 0.010818123000035484,
+  "inference_latency_ms": 0.477445589999661,
+  "inference_throughput_rows_per_sec": 1166440.5715988437,
+  "report_vi": {
+    "summary": "Mô hình LightGBM được huấn luyện thành công trên CPU với thời gian load dữ liệu 0.91 giây và thời gian training 1.61 giây.",
+    "quality": "Mô hình đạt AUC-ROC 0.9644 và Recall 89.80%.",
+    "performance": "Inference đạt latency trung bình 0.477 ms và throughput khoảng 1.16 triệu dòng mỗi giây.",
+    "limitation": "Accuracy đạt 98.69%. Precision 10.71% và F1-score 0.1913 cho thấy mô hình tạo nhiều false positive.",
+    "conclusion": "LightGBM khá phù hợp cho bài toán phát hiện gian lận."
+  }
+}
