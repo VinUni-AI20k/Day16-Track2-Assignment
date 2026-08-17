@@ -1,4 +1,4 @@
-# Terraform local state and backups
+# Terraform local state and providers
 **/.terraform/*
 *.tfstate
 *.tfstate.*
@@ -13,9 +13,22 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
 # SSH Keys
 lab-key
 lab-key.pub
+
+# Large build artifacts
+terraform.zip
 
 # Environment Variables
 .env
