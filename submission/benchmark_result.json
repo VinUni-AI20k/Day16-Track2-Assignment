@@ -1,0 +1,14 @@
+{
+    "data_load_seconds": 2.4887474960000873,
+    "split": "Train 60% / Val 20% / Test 20%",
+    "seed": 42,
+    "training_seconds": 2.65768131599998,
+    "best_iteration": 1,
+    "auc_roc": 0.9380949569614001,
+    "accuracy": 0.9989115550718023,
+    "f1": 0.7350427350427351,
+    "precision": 0.6323529411764706,
+    "recall": 0.8775510204081632,
+    "latency_1_row_ms": 1.1727106099988305,
+    "throughput_1000_rows_per_second": 678017.1254313577
+}
